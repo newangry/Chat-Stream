@@ -1,37 +1,14 @@
-# Official Flutter packages for [Stream Chat](https://getstream.io/chat/sdk/flutter/)
+# I developed this flutter stream chat package
 
 ![](https://raw.githubusercontent.com/GetStream/stream-chat-flutter/master/images/sdk_hero_v4.png)
 
 [![CI](https://github.com/GetStream/stream-chat-flutter/actions/workflows/stream_flutter_workflow.yml/badge.svg?branch=master)](https://github.com/GetStream/stream-chat-flutter/actions/workflows/stream_flutter_workflow.yml)
 [![Melos](https://img.shields.io/badge/maintained%20with-melos-f700ff.svg?style=flat-square)](https://github.com/invertase/melos)
 
-**Quick Links**
-
-- [Register](https://getstream.io/chat/trial/) to get an API key for Stream Chat
-- [Flutter Chat SDK Tutorial](https://getstream.io/chat/flutter/tutorial/)
-- [Chat UI Kit](https://getstream.io/chat/ui-kit/)
-- [Sample apps](https://github.com/GetStream/flutter-samples)
-
-This repository contains code for our [Dart](https://dart.dev/) and [Flutter](https://flutter.dev/) chat clients.
-
-Stream allows developers to rapidly deploy scalable feeds and chat messaging with an industry leading 99.999% uptime SLA guarantee.
 
 **V8 Migration Guide**
 
 For upgrading from V7 to V8, please refer to the [V8 Migration Guide](https://getstream.io/chat/docs/sdk/flutter/guides/migration_guide_8_0/)
-
-## Sample apps and demos 
-Our team maintains a dedicated repository for full fledged sample applications and demos. Consider checking out [GetStream/flutter-samples](https://github.com/GetStream/flutter-samples) to learn more or get started by looking at our latest [Stream Chat demo](https://github.com/GetStream/flutter-samples/tree/main/packages/stream_chat_v1). 
-
-## Free for Makers
-
-Stream is free for most side and hobby projects. To qualify your project/company needs to have < 5 team members and < $10k in monthly revenue.
-For complete pricing details visit our [Chat Pricing Page](https://getstream.io/chat/pricing/)
-
-## Structure
-Stream Chat Dart is a monorepo built using [Melos](https://docs.page/invertase/melos). Individual packages can be found in the `packages` directory while configuration and top level commands can be found in `melos.yaml`. 
-
-To get started, run `bootstrap` after cloning the project. 
 
 ```shell
 melos bootstrap
@@ -65,17 +42,4 @@ It teaches you how to use this SDK and also shows how to make frequently require
 Every package folder includes a fully functional example with setup instructions.
 
 We also provide a set of sample apps created using the Stream Flutter SDK at [this location](https://github.com/GetStream/flutter-samples).
-
-## Versioning Policy
-
-All of the Stream Chat packages follow [semantic versioning](https://semver.org/).
-
-See our [versioning policy documentation](https://getstream.io/chat/docs/sdk/flutter/basics/versioning_policy/) for more information.
-
-## We are hiring
-
-We've recently closed a [\$38 million Series B funding round](https://techcrunch.com/2021/03/04/stream-raises-38m-as-its-chat-and-activity-feed-apis-power-communications-for-1b-users/) and we keep actively growing.
-Our APIs are used by more than a billion end-users, and you'll have a chance to make a huge impact on the product within a team of the strongest engineers all over the world.
-
-Check out our current openings and apply via [Stream's website](https://getstream.io/team/#jobs).
 
